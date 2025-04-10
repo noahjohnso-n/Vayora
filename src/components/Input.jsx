@@ -162,7 +162,7 @@ export default function Input() {
 
             <Submit len={details.length} handleClick={getTrip} />
 
-            {loading && <p>Loading...</p>} {/* Show "Loading..." when loading */}
+            {loading && <p className="load-buffer">Loading...</p>}
             {trips && <Trips tripsData={trips} />}
         </div>
     );

@@ -157,7 +157,7 @@ header{
 }
 
 #ai-trips{
-  margin: 20px;
+  margin: 20px 40px 40px 40px;
   line-height: 28px;
 }
 
@@ -169,4 +169,10 @@ header{
 }
 .setWidth {
   width: 100%;
+}
+
+
+.load-buffer{
+  font-size: 24px;
+  margin-left: 50px;
 }
