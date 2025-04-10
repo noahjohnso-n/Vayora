@@ -59,23 +59,29 @@ header{
   min-width: 150px;
   max-width: 400px;
   padding-left: 8px;
+  margin-left: 20px;
   background-color: white;
   border: 1px solid lightgray;
 }
 
-#input-add{
+#input-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black;
   color: white;
   border: none;
-  width: 170px;
-  font-size: 14px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  width: 10%;
+  min-width: 50px;
+  font-size: 24px;
+  padding: 0; /* Remove the padding */
 }
 
 #input-form{
   margin-top: 70px;
   margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   justify-content: center;
 }
@@ -171,8 +177,26 @@ header{
   width: 100%;
 }
 
+.setWidth:hover{
+  cursor: pointer;
+}
 
 .load-buffer{
   font-size: 24px;
   margin-left: 50px;
+}
+
+.vayora-desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.vayora-d{
+  width: 80%;
+  max-width: 710px;
+  font-size: 24px;
+  text-align: center;
 }
